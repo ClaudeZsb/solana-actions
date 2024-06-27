@@ -12,9 +12,9 @@ export const GET = (req: Request) => {
     ).toString();
 
     const payload: ActionGetResponse = {
-      title: "Actions Example - Donate Native SOL",
+      title: "Donate SOL to Sanbao, NOW!!!",
       icon: new URL("/avatar.svg", requestUrl.origin).toString(),
-      description: "Donate SOL",
+      description: "Donate SOL to Sanbao",
       label: "Transfer", // this value will be ignored since `links.actions` exists
       links: {
         actions: [
